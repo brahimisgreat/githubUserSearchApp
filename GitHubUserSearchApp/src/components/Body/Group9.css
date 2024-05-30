@@ -1,0 +1,41 @@
+.group9 {
+  width: 279px;
+  height: 85px;
+  border-radius: 10px;
+  background: #141d2f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.group9 .babys {
+  display: flex;
+  width: 79px;
+  height: 48px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.group9 .babys h5 {
+  color: #fff;
+  text-align: center;
+  font-family: "Space Mono";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.group9 .babys span {
+  color: #fff;
+  text-align: center;
+  font-family: "Space Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}

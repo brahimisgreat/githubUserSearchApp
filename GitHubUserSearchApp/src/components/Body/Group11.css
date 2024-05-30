@@ -1,0 +1,29 @@
+.group11 {
+  width: 185px;
+  height: 127px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.group11 .socials {
+  display: flex;
+  height: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 13px;
+}
+
+.group11 .socials img {
+  width: 20px;
+  height: 20px;
+}
+
+.group11 .socials span {
+  color: #fff;
+  font-family: "Space Mono";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

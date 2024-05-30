@@ -1,0 +1,25 @@
+.group1 {
+  display: flex;
+  gap: 110px;
+  align-items: center;
+}
+
+.group1 h3 {
+  color: #fff;
+  font-family: "Space Mono";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.group1 .containn span {
+  color: #fff;
+  text-align: right;
+  font-family: "Space Mono";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.5px;
+}

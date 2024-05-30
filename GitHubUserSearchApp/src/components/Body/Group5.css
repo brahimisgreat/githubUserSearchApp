@@ -1,0 +1,44 @@
+.group5 {
+  width: 234px;
+  height: 70px;
+  display: flex;
+  gap: 20px;
+}
+
+.group5 img {
+  width: 70px;
+  height: 70px;
+}
+
+.group5 .userInfo {
+  width: 144.5px;
+  height: 69px;
+  flex-shrink: 0;
+}
+
+.group5 .userInfo h3 {
+  color: #fff;
+  font-family: "Space Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.group5 .userInfo span {
+    color: #0079FF;
+    font-family: "Space Mono";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.group5 .userInfo p {
+  color: #fff;
+  font-family: "Space Mono";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
