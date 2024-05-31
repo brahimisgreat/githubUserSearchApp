@@ -5,7 +5,8 @@
   background: #1e2a47;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  
 }
 
 .group3 input {
@@ -16,6 +17,7 @@
   font-weight: 400;
   line-height: 25px; /* 192.308% */
   background-color: transparent;
+  width: 184PX;
   border: none;
 }
 

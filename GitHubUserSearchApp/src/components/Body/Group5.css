@@ -1,10 +1,9 @@
 .group5 {
-  width: 234px;
-  height: 70px;
   display: flex;
   gap: 20px;
+width: 234px;
+margin-left: 24px;
 }
-
 .group5 img {
   width: 70px;
   height: 70px;

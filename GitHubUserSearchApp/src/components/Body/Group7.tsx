@@ -1,12 +1,11 @@
 import React from 'react'
 import './Group7.css'
 
-export const Group7 = () => {
+export const Group7 = ({data}) => {
   return (
     <div className='group7'>
         <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. 
-        Quisque volutpat mattis eros.
+        {data.bio ? data.bio : 'No bio available'}
         </p>
     </div>
   )

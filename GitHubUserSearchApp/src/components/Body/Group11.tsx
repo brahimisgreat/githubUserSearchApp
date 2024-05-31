@@ -4,16 +4,16 @@ import twitterIcon from '../../assets/icon-twitter.svg'
 import website from '../../assets/icon-website.svg'
 import company from '../../assets/icon-company.svg'
 
-export const Group11 = () => {
+export const Group11 = ({data}) => {
   return (
     <div className='group11'>
         <div className='socials'>
             <img src={location}/>
-            <span>sanfrancisoc</span>
+            <span>{data.location ? data.location : "Not Available" }</span>
         </div>
         <div className='socials'>
             <img src={website}/>
-            <span>sanfrancisoc</span>
+            <span>{data.url}</span>
         </div>
         <div className='socials'>
             <img src={twitterIcon}/>

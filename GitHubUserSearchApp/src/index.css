@@ -5,10 +5,7 @@
 }
 
 body{
-  min-width: 100vw;
-  height: 100vh;
   background: #141D2F;
   display: flex;
-  border: solid orange;
-  align-items: center;
+  justify-content: center;
 }

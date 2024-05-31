@@ -3,4 +3,7 @@
   height: 517px;
   border-radius: 15px;
   background: #1e2a47;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
