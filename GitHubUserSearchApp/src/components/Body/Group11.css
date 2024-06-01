@@ -1,17 +1,26 @@
 .group11 {
-  width: 185px;
+  width: 100%;
   height: 127px;
   display: flex;
   flex-direction: column;
   gap: 16px;
+  overflow: hidden;
 }
 
 .group11 .socials {
   display: flex;
   height: 20px;
-  justify-content: center;
   align-items: flex-start;
   gap: 13px;
+  margin-left: 20px;
+}
+.socialsWeb {
+  display: flex;
+  height: 20px;
+  align-items: flex-start;
+  gap: 13px;
+  width: 100%;
+  margin-left: 20px;
 }
 
 .group11 .socials img {
@@ -24,6 +33,22 @@
   font-family: "Space Mono";
   font-size: 13px;
   font-style: normal;
+  text-overflow: ellipsis;
   font-weight: 400;
   line-height: normal;
 }
+
+.group11 .socialsWeb img {
+  width: 20px;
+  height: 20px;
+}
+
+.group11 .socialsWeb span {
+  color: #fff;
+  font-family: "Space Mono";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+

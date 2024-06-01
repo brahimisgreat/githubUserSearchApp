@@ -7,11 +7,12 @@ import { useState } from "react";
 function App() {
 
   const [data, setData] = useState([]);
+  const [themeToggle, setThemeToggle] = useState(false);
   return (
     <div className="app">
-      <Group1 />
-      <Group3  data={data} setData={setData}/>
-      <Body  data={data} />
+      <Group1 setThemeToggle={setThemeToggle} theme={themeToggle} />
+      <Group3 themeToggle={themeToggle} data={data} setData={setData}/>
+      <Body  themeToggle={themeToggle} data={data} />
     </div>
   );
 }

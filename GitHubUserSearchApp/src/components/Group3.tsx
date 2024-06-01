@@ -1,16 +1,20 @@
 import  './Group3.css'
 import iconSearch from '../assets/icon-search.svg'
-import { useState } from 'react'   
+import { useState, useEffect } from 'react'   
 
 
 export const Group3 = ({data, setData}) => {
 
-  const [search, setSearch] = useState('')
+  const [search, setSearch] = useState('brahimisgreat')
 
+  useEffect (() => {
+    handleClick()
+  }, [])
   async function handleClick() {
     const response = await fetch(`https://api.github.com/users/${search}`)
     const datas = await response.json()
     setData(datas)
+    setSearch("")
     console.log(datas)
     console.log(data)
   }

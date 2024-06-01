@@ -8,20 +8,20 @@ export const Group11 = ({data}) => {
   return (
     <div className='group11'>
         <div className='socials'>
-            <img src={location}/>
-            <span>{data.location ? data.location : "Not Available" }</span>
+            <img src={location} style={data.location ? undefined : {opacity:'50%'}  } />
+            <span style={data.location ? undefined : {opacity:'50%'}  } >{data.location ? data.location : "Not Available" }</span>
+        </div>
+        <div className='socialsWeb'>
+            <img src={website} style={data.url ? undefined : {opacity:'50%'}  } />
+            <span style={data.url ? undefined : {opacity:'50%'}  } >{data.url}</span>
         </div>
         <div className='socials'>
-            <img src={website}/>
-            <span>{data.url}</span>
+            <img src={twitterIcon} style={data.twitter_username ? undefined : {opacity:'50%'}  }/>
+            <span style={data.twitter_username ? undefined : {opacity: '50%'}}>{data.twitter_username ? data.twitter_username : "Not Avialable"}</span>
         </div>
         <div className='socials'>
-            <img src={twitterIcon}/>
-            <span>sanfrancisoc</span>
-        </div>
-        <div className='socials'>
-            <img src={company}/>
-            <span>sanfrancisoc</span>
+            <img style={data.company ? undefined : {opacity:"50%"}} src={company}/>
+            <span style={data.company ? undefined : {opacity:"50%"}}>{data.company ? data.company : "Not Available"}</span>
         </div>
 
     </div>
