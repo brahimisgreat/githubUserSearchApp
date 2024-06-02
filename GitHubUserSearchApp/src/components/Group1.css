@@ -4,6 +4,13 @@
   align-items: center;
   margin-top: 31px;
 }
+.group1Light{
+  display: flex;
+  gap: 110px;
+  align-items: center;
+  margin-top: 31px;
+}
+
 
 .group1 h3 {
   color: #fff;
@@ -14,8 +21,27 @@
   line-height: normal;
 }
 
+.group1Light h3{
+  color: #222731;
+  font-family: "Space Mono";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
 .group1 .containn span {
   color: #fff;
+  text-align: right;
+  font-family: "Space Mono";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.5px;
+}
+.group1Light .containn span {
+  color: #4b6a9b;
   text-align: right;
   font-family: "Space Mono";
   font-size: 13px;
