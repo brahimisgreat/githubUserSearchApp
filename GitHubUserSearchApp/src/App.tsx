@@ -11,8 +11,8 @@ function App() {
   return (
     <div className="app">
       <Group1 setThemeToggle={setThemeToggle} theme={themeToggle} />
-      <Group3 themeToggle={themeToggle} data={data} setData={setData}/>
-      <Body  themeToggle={themeToggle} data={data} />
+      <Group3 theme={themeToggle} data={data} setData={setData}/>
+      <Body  theme={themeToggle} data={data} />
     </div>
   );
 }

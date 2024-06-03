@@ -6,10 +6,19 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  
+}
+.group3Light {
+  width: 327px;
+  height: 60px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #fefefe;
+  box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.2);
 }
 
-.group3 input {
+input {
   color: #fff;
   font-family: "Space Mono";
   font-size: 13px;
@@ -17,11 +26,11 @@
   font-weight: 400;
   line-height: 25px; /* 192.308% */
   background-color: transparent;
-  width: 184PX;
+  width: 184px;
   border: none;
 }
 
-.group3 button {
+button {
   width: 84px;
   height: 46px;
   color: #fff;
@@ -36,6 +45,11 @@
 }
 
 .group3 img {
+  width: 20.048px;
+  height: 20px;
+}
+
+.group3Light img {
   width: 20.048px;
   height: 20px;
 }

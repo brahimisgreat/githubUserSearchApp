@@ -3,7 +3,7 @@ import iconSearch from '../assets/icon-search.svg'
 import { useState, useEffect } from 'react'   
 
 
-export const Group3 = ({data, setData}) => {
+export const Group3 = ({theme ,data, setData}) => {
 
   const [search, setSearch] = useState('brahimisgreat')
 
@@ -19,7 +19,7 @@ export const Group3 = ({data, setData}) => {
     console.log(data)
   }
   return (
-    <div className='group3'>
+    <div className={theme ? "group3Light" : "group3"}>
         <img  src={iconSearch}/>
         <input type='text' placeholder='Search for Github username' required  value={search} onChange={(e) => {setSearch(e.target.value)}}/>
         <button  onClick={handleClick}>Search</button>

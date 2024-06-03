@@ -4,13 +4,13 @@ import { Group7 } from "./Group7";
 import { Group9 } from "./Group9";
 import { Group11 } from "./Group11";
 
-export const Body = ({ data }) => {
+export const Body = ({ theme,data }) => {
   return (
-    <div className="body">
-      <Group5 data={data} />
-      <Group7 data={data} />
-      <Group9 data={data} />
-      <Group11 data={data} />
+    <div className={theme? "bodyLight" : "body"}>
+      <Group5 data={data}  theme={theme}/>
+      <Group7 data={data}  theme={theme} />
+      <Group9 data={data}  theme={theme} />
+      <Group11 data={data}  theme={theme} />
     </div>
   );
 };

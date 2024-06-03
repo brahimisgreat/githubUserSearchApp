@@ -1,9 +1,9 @@
 import React from 'react'
 import './Group9.css'
 
-export const Group9 = ({data}) => {
+export const Group9 = ({theme,data}) => {
   return (
-    <div className='group9'>
+    <div className={theme ? "group9Light" : "group9"}>
         <div className='babys'>
             <h5>Repos</h5>
             <span>{data.public_repos}</span>

@@ -4,7 +4,21 @@
 width: 234px;
 margin-left: 24px;
 }
+.group5Light {
+  display: flex;
+  gap: 20px;
+width: 234px;
+margin-left: 24px;
+}
+
+
 .group5 img {
+  width: 70px;
+  height: 70px;
+  border-radius: 70px;
+
+}
+.group5Light img {
   width: 70px;
   height: 70px;
   border-radius: 70px;
@@ -14,8 +28,13 @@ margin-left: 24px;
 .group5 .userInfo {
   width: 144.5px;
   height: 69px;
-  flex-shrink: 0;
 }
+.group5Light .userInfo {
+  width: 144.5px;
+  height: 69px;
+}
+
+
 
 .group5 .userInfo h3 {
   color: #fff;
@@ -25,8 +44,25 @@ margin-left: 24px;
   font-weight: 700;
   line-height: normal;
 }
+.group5Light .userInfo h3 {
+  color: #2B3442;
+  font-family: "Space Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
 
 .group5 .userInfo span {
+  color: #0079FF;
+  font-family: "Space Mono";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.group5Light .userInfo span {
     color: #0079FF;
     font-family: "Space Mono";
     font-size: 13px;
@@ -37,6 +73,14 @@ margin-left: 24px;
 
 .group5 .userInfo p {
   color: #fff;
+  font-family: "Space Mono";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+.group5Light .userInfo p {
+  color: #697C9A;
   font-family: "Space Mono";
   font-size: 13px;
   font-style: normal;
