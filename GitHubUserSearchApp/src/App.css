@@ -4,3 +4,9 @@
   flex-direction: column;
   gap: 20px;
 }
+
+.container{
+  min-width: 100vw;
+  background: #F6F8FF;
+  height: 100vh;
+}

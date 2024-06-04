@@ -6,8 +6,23 @@
   gap: 16px;
   overflow: hidden;
 }
+.group11Light {
+  width: 100%;
+  height: 127px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow: hidden;
+}
 
 .group11 .socials {
+  display: flex;
+  height: 20px;
+  align-items: flex-start;
+  gap: 13px;
+  margin-left: 20px;
+}
+.group11Light .socials {
   display: flex;
   height: 20px;
   align-items: flex-start;
@@ -27,9 +42,22 @@
   width: 20px;
   height: 20px;
 }
+.group11Light .socials img {
+  width: 20px;
+  height: 20px;
+}
 
 .group11 .socials span {
   color: #fff;
+  font-family: "Space Mono";
+  font-size: 13px;
+  font-style: normal;
+  text-overflow: ellipsis;
+  font-weight: 400;
+  line-height: normal;
+}
+.group11Light .socials span {
+  color: #2B3442;
   font-family: "Space Mono";
   font-size: 13px;
   font-style: normal;
@@ -42,9 +70,20 @@
   width: 20px;
   height: 20px;
 }
+.group11Light .socialsWeb img {
+  width: 20px;
+  height: 20px;
+}
 
 .group11 .socialsWeb span {
   color: #fff;
+  font-family: "Space Mono";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.group11Light .socialsWeb span {
   font-family: "Space Mono";
   font-size: 13px;
   font-style: normal;
