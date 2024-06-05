@@ -1,12 +1,28 @@
-.app{
+.app {
   min-width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 20px;
 }
 
-.container{
-  min-width: 100vw;
+.containera {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 10px;
+  justify-content: center;
+  align-items: center;
+  background: #141D2F;
+}
+.containeraLight {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 10px;
+  border: solid 1px blue;
+  justify-content: center;
+  align-items: center;
   background: #F6F8FF;
-  height: 100vh;
 }

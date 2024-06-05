@@ -8,7 +8,7 @@ function App() {
   const [data, setData] = useState([]);
   const [themeToggle, setThemeToggle] = useState(false);
   return (
-    <div className="container">
+    <div className={themeToggle ? 'containeraLight' : 'containera'}>
       <div className="app">
         <Group1 setThemeToggle={setThemeToggle} theme={themeToggle} />
         <Group3 theme={themeToggle} data={data} setData={setData} />
