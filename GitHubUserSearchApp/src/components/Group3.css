@@ -44,12 +44,9 @@ button {
   border: none;
 }
 
-.group3 img {
+.group3 img, .group3Light img{
   width: 20.048px;
   height: 20px;
 }
 
-.group3Light img {
-  width: 20.048px;
-  height: 20px;
-}
+

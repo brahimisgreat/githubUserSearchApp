@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react'
 
 export const Group3 = ({theme ,data, setData}) => {
 
-  const [search, setSearch] = useState('brahimisgreat')
+  const [search, setSearch] = useState('octocat')
 
   useEffect (() => {
     handleClick()
@@ -21,7 +21,7 @@ export const Group3 = ({theme ,data, setData}) => {
   return (
     <div className={theme ? "group3Light" : "group3"}>
         <img  src={iconSearch}/>
-        <input type='text' placeholder='Search for Github username' required  value={search} onChange={(e) => {setSearch(e.target.value)}}/>
+        <input type='text' placeholder='Search for Github username...' required  value={search} onChange={(e) => {setSearch(e.target.value)}}/>
         <button  onClick={handleClick}>Search</button>
     </div>
   )

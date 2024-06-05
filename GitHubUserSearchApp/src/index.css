@@ -1,6 +1,228 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+@media screen and (min-width: 768px) {
+  .group1 {
+    display: flex;
+    gap: 110px;
+    align-items: center;
+    margin-top: 31px;
+    width: 573px;
+    justify-content: space-between;
+  }
+  .group1Light {
+    display: flex;
+    gap: 110px;
+    align-items: center;
+    margin-top: 31px;
+    width: 573px;
+    justify-content: space-between;
+  }
+
+  .group3 {
+    width: 573px;
+    height: 69px;
+    border-radius: 15px;
+    background: #1e2a47;
+    display: flex;
+    align-items: center;
+  }
+  .group3Light {
+    width: 573px;
+    height: 69px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+  }
+  input {
+    font-size: 18px;
+    width: 300px;
+  }
+  button {
+    width: 106px;
+    height: 50px;
+    margin-left: 100px;
+  }
+
+  .body {
+    width: 573px;
+    height: 481px;
+  }
+  .bodyLight {
+    width: 573px;
+    height: 481px;
+  }
+
+  .group5 {
+    display: flex;
+    gap: 20px;
+    width: 334px;
+    margin-left: 24px;
+    height: 117px;
+  }
+  .group5Light {
+    display: flex;
+    gap: 20px;
+    width: 334px;
+    margin-left: 24px;
+    height: 117px;
+  }
+
+  .group5 img {
+    width: 117px;
+    height: 117px;
+  }
+  .group5Light img {
+    width: 117px;
+    height: 117px;
+  }
+  .group5 .userInfo {
+    width: 176px;
+    height: 91px;
+  }
+  .group5Light .userInfo {
+    width: 176px;
+    height: 91px;
+  }
+  .group5 .userInfo h3 {
+    font-size: 26px;
+  }
+  .group5Light .userInfo h3 {
+    font-size: 26px;
+  }
+  .group5 .userInfo span {
+    font-size: 16px;
+  }
+  .group5Light .userInfo span {
+    font-size: 16px;
+  }
+  .group5 .userInfo p {
+    font-size: 15px;
+  }
+  .group5Light .userInfo p {
+    font-size: 15px;
+  }
+  .group9 {
+    width: 493px;
+    height: 85px;
+  }
+  .group9Light {
+    width: 493px;
+    height: 85px;
+  }
+  
+  .group11 {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 30px;
+  }
+  .group11Light {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 30px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .group1 {
+    display: flex;
+    width: 730px;
+    align-items: center;
+    margin-top: 31px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .group1Light {
+    display: flex;
+    width: 730px;
+    align-items: center;
+    margin-top: 31px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .group3 {
+    width: 730px;
+    height: 69px;
+  }
+  .group3Light {
+    width: 730px;
+    height: 69px;
+  }
+
+  .body {
+    width: 730px;
+    height: 419px;
+  }
+  .bodyLight {
+    width: 730px;
+    height: 419px;
+  }
+
+  .group5 {
+    gap: 30px;
+    width: 400px;
+  }
+  .group5Light {
+    gap: 30px;
+    width: 400px;
+  }
+
+  .group5 .userInfo p {
+    font-size: 15px;
+    position: relative;
+    left: 260px;
+    bottom: 55px;
+  }
+  .group5Light .userInfo p {
+    font-size: 15px;
+    position: relative;
+    left: 260px;
+    bottom: 55px;
+  }
+  .group7 {
+    position: relative;
+    left: 150px;
+    bottom: 20px;
+  }
+  .group7Light {
+    position: relative;
+    left: 150px;
+    bottom: 20px;
+  }
+  .group9 {
+    position: relative;
+    left: 30px;
+  }
+  .group9Light {
+    position: relative;
+    left: 30px;
+  }
+  .group11 {
+    width: 429px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 20px;
+    overflow: hidden;
+    position: relative;
+    left: 130px;
+    height: 63px;
+  }
+  .group11Light {
+    width: 429px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 20px;
+    overflow: hidden;
+    position: relative;
+    left: 130px;
+    height: 63px;
+  }
+}
