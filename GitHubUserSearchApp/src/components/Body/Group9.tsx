@@ -1,4 +1,3 @@
-import React from 'react'
 import './Group9.css'
 
 export const Group9 = ({theme,data}) => {

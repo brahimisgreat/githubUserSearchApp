@@ -1,4 +1,3 @@
-import favicon from '../../assets/favicon-32x32.png';
 import './Group5.css';
 
 export const Group5 = ({theme,data}) => {

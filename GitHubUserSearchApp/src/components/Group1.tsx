@@ -4,7 +4,7 @@ import  moonIcon from  '../assets/icon-moon.svg'
 
 type Group1Props = {
   theme: boolean,
-  setThemeToggle: (prev: boolean) => void
+  setThemeToggle: (theme:boolean) => void
 }
 
 export const Group1 = ({theme,setThemeToggle}:Group1Props) => {

@@ -1,4 +1,3 @@
-import React from 'react'
 import './Group7.css'
 
 export const Group7 = ({theme,data}) => {
